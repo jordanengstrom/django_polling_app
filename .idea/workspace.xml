@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5689acb4-873e-49aa-b157-851a6f20a9ed" name="Default Changelist" comment="part 4: now using get_object_or_404, updated views to remove hard coded urls in templates, namespaced the polls app urls">
-      <change afterPath="$PROJECT_DIR$/polls/static/polls/images/background.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/polls/style.css" afterDir="false" />
+    <list default="true" id="5689acb4-873e-49aa-b157-851a6f20a9ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/admin/base_site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/polls/static/polls/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin" />
     <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -51,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/admin" />
       <recent name="$PROJECT_DIR$/polls/static/polls/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -141,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578271882025</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="part 7: customizing admin site">
+      <created>1578273261454</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578273261454</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +164,8 @@
     <MESSAGE value="part 5: added unit tests" />
     <MESSAGE value="part 6: added static files for css" />
     <MESSAGE value="part 6: udpated css body for background size" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 6: udpated css body for background size" />
+    <MESSAGE value="part 7: customizing admin site" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 7: customizing admin site" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578264195426">
@@ -170,10 +173,10 @@
     </state>
     <state x="436" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.805/-1920.-180.1920.1080@0.23.1440.805" timestamp="1578257735321" />
     <state x="436" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.807/-1920.-180.1920.1080@0.23.1440.807" timestamp="1578264195426" />
-    <state x="231" y="116" width="976" height="539" key="CommitChangelistDialog2" timestamp="1578271881894">
+    <state x="231" y="116" width="976" height="539" key="CommitChangelistDialog2" timestamp="1578273261340">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="231" y="116" width="976" height="539" key="CommitChangelistDialog2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271881894" />
+    <state x="231" y="116" width="976" height="539" key="CommitChangelistDialog2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578273261340" />
     <state x="312" y="28" key="CommitChangelistDialog2/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578266244840" />
     <state x="137" y="23" width="1128" height="740" key="DBNavigator.ProjectSettingsDialog" timestamp="1578257813741">
       <screen x="0" y="23" width="1440" height="805" />
@@ -201,10 +204,10 @@
     <state x="221" y="64" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1578193084604" />
     <state x="221" y="64" key="SettingsEditor/0.23.1440.807/-1920.-180.1920.1080@0.23.1440.807" timestamp="1578250241250" />
     <state x="220" y="64" key="SettingsEditor/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578267400004" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578271883696">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578273262862">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271883696" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578273262862" />
     <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578266246996" />
     <state x="385" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1578269499724">
       <screen x="0" y="23" width="1440" height="805" />
