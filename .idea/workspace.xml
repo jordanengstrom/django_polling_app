@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578268539068</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="part 5: added unit tests">
+      <created>1578271770323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578271770323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="part 6: added static files for css">
+      <created>1578271850110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578271850110</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,7 +151,9 @@
     <MESSAGE value="part 3: now using get_object_or_404, updated views to remove hard coded urls in templates, namespaced the polls app urls" />
     <MESSAGE value="part 4: now using HttpResponseRedirect to send users to a knew results page" />
     <MESSAGE value="part 4: now using DetailView, ListView from django.views.generic" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 4: now using DetailView, ListView from django.views.generic" />
+    <MESSAGE value="part 5: added unit tests" />
+    <MESSAGE value="part 6: added static files for css" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 6: added static files for css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578264195426">
@@ -146,10 +161,10 @@
     </state>
     <state x="436" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.805/-1920.-180.1920.1080@0.23.1440.805" timestamp="1578257735321" />
     <state x="436" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.807/-1920.-180.1920.1080@0.23.1440.807" timestamp="1578264195426" />
-    <state x="218" y="91" width="976" height="539" key="CommitChangelistDialog2" timestamp="1578268538984">
+    <state x="218" y="91" width="976" height="539" key="CommitChangelistDialog2" timestamp="1578271849971">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="218" y="91" width="976" height="539" key="CommitChangelistDialog2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578268538984" />
+    <state x="218" y="91" width="976" height="539" key="CommitChangelistDialog2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271849971" />
     <state x="312" y="28" key="CommitChangelistDialog2/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578266244840" />
     <state x="137" y="23" width="1128" height="740" key="DBNavigator.ProjectSettingsDialog" timestamp="1578257813741">
       <screen x="0" y="23" width="1440" height="805" />
@@ -177,10 +192,10 @@
     <state x="221" y="64" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1578193084604" />
     <state x="221" y="64" key="SettingsEditor/0.23.1440.807/-1920.-180.1920.1080@0.23.1440.807" timestamp="1578250241250" />
     <state x="220" y="64" key="SettingsEditor/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578267400004" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578268540589">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578271851760">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578268540589" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271851760" />
     <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578266246996" />
     <state x="385" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1578269499724">
       <screen x="0" y="23" width="1440" height="805" />
