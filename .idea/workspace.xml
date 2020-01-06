@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/polls/static/polls/images/background.gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/polls/static/polls/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578271850110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="part 6: udpated css body for background size">
+      <created>1578271882025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578271882025</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +161,8 @@
     <MESSAGE value="part 4: now using DetailView, ListView from django.views.generic" />
     <MESSAGE value="part 5: added unit tests" />
     <MESSAGE value="part 6: added static files for css" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 6: added static files for css" />
+    <MESSAGE value="part 6: udpated css body for background size" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 6: udpated css body for background size" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578264195426">
@@ -161,10 +170,10 @@
     </state>
     <state x="436" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.805/-1920.-180.1920.1080@0.23.1440.805" timestamp="1578257735321" />
     <state x="436" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.807/-1920.-180.1920.1080@0.23.1440.807" timestamp="1578264195426" />
-    <state x="218" y="91" width="976" height="539" key="CommitChangelistDialog2" timestamp="1578271849971">
+    <state x="231" y="116" width="976" height="539" key="CommitChangelistDialog2" timestamp="1578271881894">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="218" y="91" width="976" height="539" key="CommitChangelistDialog2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271849971" />
+    <state x="231" y="116" width="976" height="539" key="CommitChangelistDialog2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271881894" />
     <state x="312" y="28" key="CommitChangelistDialog2/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578266244840" />
     <state x="137" y="23" width="1128" height="740" key="DBNavigator.ProjectSettingsDialog" timestamp="1578257813741">
       <screen x="0" y="23" width="1440" height="805" />
@@ -192,10 +201,10 @@
     <state x="221" y="64" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1578193084604" />
     <state x="221" y="64" key="SettingsEditor/0.23.1440.807/-1920.-180.1920.1080@0.23.1440.807" timestamp="1578250241250" />
     <state x="220" y="64" key="SettingsEditor/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578267400004" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578271851760">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578271883696">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271851760" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805/-241.-1080.1920.1080@0.23.1440.805" timestamp="1578271883696" />
     <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.807/-241.-1080.1920.1080@0.23.1440.807" timestamp="1578266246996" />
     <state x="385" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1578269499724">
       <screen x="0" y="23" width="1440" height="805" />
